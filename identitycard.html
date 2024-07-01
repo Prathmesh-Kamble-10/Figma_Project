@@ -9,28 +9,38 @@
 <body>
     <div class="container">
         <div class="heading"> 
-            <h2> Student Identiy Card</h2>
+            <h2 id="school"> School Name </h2>
         </div>
         <div>
-            <img src="./images/836.jpg"  class="img"/>
+            <input type="image" src="" class="img"/>
+            <!-- <img src="./images/836.jpg"  class="img"/> -->
         </div>
         <div class="text">
-    <pre>
-
-        
-    School Name : Hidden Leaf Ninja School
-
-    Name : Naruto Kushina Uzumaki
-
-    Date Of Birth : 10/10/2002
-
-    Mobile Number : 8888888888
-
-    Roll No. : 7
-
-    Address : Konoha the village in hidden leaf
-    </pre>
+            <div class="field">
+                <label>Student Name :</label>
+                <label id="studentName_val"></label>
+            </div>
+            <div class="field">
+                <label>Date of Birth :</label>
+                <label id="DateOfBirth_val"></label>
+            </div>
+            <div class="field">
+                <label  >Mobile Number :</label>
+                <label id="MobileNo_val"></label>
+            </div>
+            <div class="field">
+                <label>Roll Number :</label>
+                <label id="RollNo_val"></label>
+            </div>
+            <div class="field">
+                <label>Address :</label>
+                <label id="Address_val"></label>
+            </div>
+            <div class="btn-container">
+                <button id="btnprint">Print All</button>
+            </div>
         </div>
     </div>
+    <script src="./scripts/script.js"></script>
 </body>
 </html>

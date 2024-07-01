@@ -12,6 +12,7 @@
         <h2>Student Registration</h2>
     </div>
     <form>
+            <input type="file" id="img" placeholder="upload profile"/>
         <div class="field">
             <label for="schoolName">School Name :</label>
             <input id="schoolName">
@@ -22,7 +23,7 @@
         </div>
         <div class="field">
             <label for="DateOfBirth">Date of Birth :</label>
-            <input id="DateOfBirth" type="number">
+            <input id="DateOfBirth" type="date">
         </div>
         <div class="field">
             <label for="MobileNo">Mobile Number :</label>
@@ -37,7 +38,7 @@
             <input id="Address">
         </div>
         <div class="btn-container">
-            <button class="btn">Registration</button>
+            <button class="btn" onclick="dataTransfer()">Registration</button>
             <button class="btn">Clear All</button>
         </div>
     </form>
