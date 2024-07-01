@@ -1,5 +1,4 @@
 function dataTransfer(){
-    
     document.querySelector("#school").innerText=document.getElementById("schoolName").value;
     document.getElementById("studentName_val").innerText=document.getElementById("studentName").value;
     document.getElementById("DateOfBirth_val").innerText=document.getElementById("DateOfBirth").value;
