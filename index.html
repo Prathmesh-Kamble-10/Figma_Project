@@ -7,12 +7,12 @@
    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <div class="main-container">
     <div class="container">
     <div class="heading">
         <h2>Student Registration</h2>
     </div>
     <form>
-            <input type="file" id="img" placeholder="upload profile"/>
         <div class="field">
             <label for="schoolName">School Name :</label>
             <input id="schoolName">
@@ -38,10 +38,47 @@
             <input id="Address">
         </div>
         <div class="btn-container">
-            <button class="btn" onclick="dataTransfer()">Registration</button>
-            <button class="btn">Clear All</button>
+            <button class="btn" onclick="dataTransfer()" type="button">Registration</button>
+            <button class="btn" type="reset">Clear All</button>
         </div>
     </form>
     </div>
+    <!-- this view slid -->
+    <div class="container">
+        <div class="heading"> 
+            <h2 id="school"> School Name </h2>
+        </div>
+        <div>
+            <!-- <input type="image" src="" class="img"/> -->
+            <!-- <img src="./images/836.jpg"  class="img"/> -->
+        </div>
+        <div class="text">
+            <div class="field0">
+                <label>Student Name :</label>
+                <label id="studentName_val"></label>
+            </div>
+            <div class="field0">
+                <label>Date of Birth :</label>
+                <label id="DateOfBirth_val"></label>
+            </div>
+            <div class="field0">
+                <label>Mobile Number :</label>
+                <label id="MobileNo_val"></label>
+            </div>
+            <div class="field0">
+                <label>Roll Number :</label>
+                <label id="RollNo_val"></label>
+            </div>
+            <div class="field0">
+                <label>Address :</label>
+                <label id="Address_val"></label>
+            </div>
+            <div class="btn-container">
+                <button class="btnprint">Print All</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="/scripts/script.js"></script>
 </body>
 </html>
