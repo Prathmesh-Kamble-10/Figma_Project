@@ -6,3 +6,6 @@ function dataTransfer(){
     document.getElementById("RollNo_val").innerText=document.getElementById("RollNo").value;
     document.getElementById("Address_val").innerText=document.getElementById("Address").value;
 }
+function printCard(){
+    window.print()
+}

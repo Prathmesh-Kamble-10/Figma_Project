@@ -85,3 +85,19 @@ margin-top: 15px;
     font-size: 18px;
     font-weight: bold;
 }
+@media print{
+    body {
+        visibility: hidden;
+        display:flex;
+        justify-content: center;
+    }
+    .firstcont{
+        display: none;
+    }
+    .secncon{
+        visibility: visible;
+    }
+    .btnprint{
+        display: none;
+    }
+}
